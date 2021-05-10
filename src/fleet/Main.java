@@ -1,7 +1,6 @@
 package fleet;
 
 import java.time.LocalDate;
-import java.time.temporal.Temporal;
 import java.util.ArrayList;
 
 import static fleet.CarReader.readCarList;
@@ -13,7 +12,6 @@ public class Main {
 	public static final int LAST_CHECK_MONTHS = 11;
 
 	public static void main(String[] args) {
-
 
 		Car myCar = new Car(Brand.SEAT, "Leon", "1BX 6879", LocalDate.of(2021, 10, 10), 10);
 
@@ -30,8 +28,6 @@ public class Main {
 			engetoFleet.add(new Car(Brand.HYUNDAI, "i40", licencePlateGenerator(i), LocalDate.now(), 40));
 			System.out.println(engetoFleet.get(i).getLicencePlate());
 		}
-
-
 	}
 
 	private static boolean lastCheckBeforeElevenMonths(final Car car) {
