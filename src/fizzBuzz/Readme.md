@@ -1,0 +1,2 @@
+# Zadání Fizz Buzz
+Počítejte od 1 do 100 a při každém kroku vypište číslo daného kroku. Ale v případě, že je číslo dělitelné třemi, tak napište místo čísla Fizz. Pokud je dělitelné pěti, tak místo čísla vypište Buzz. A pokud je dělitelní třemi a pěti zároveň, tak FizzBuzz.
