@@ -1,4 +1,4 @@
-# Fronta //TODO: format
+# Fronta
 Připravte data pro registrační aplikaci, realizující frontu u lékaře. Vaše aplikace by měla podporovat následující operace:
      * Připravte metody, které realizují jednotlivé operace. Připravte také třídy, které popisují data, se kterými pracujeme.
 1. Registrace pacienta (jméno, datum narození, pohlaví, adresa).
